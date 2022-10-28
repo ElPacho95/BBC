@@ -1,13 +1,164 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.container {
+  width: 1240px;
+  margin: auto;
+}
+.header {
+  height: 160px;
+  border-bottom: 2px solid black;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin: auto;
+}
+.the {
+  width: 60px;
+  height: 40px;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+  letter-spacing: 0px;
+  color: white;
+  opacity: 1;
+  background-color: black;
+}
+.unicode {
+  font: normal normal bold 71px/0px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.navMenu {
+  display: flex;
+  justify-content: space-around;
+  font-family: Montserrat;
+}
+a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  line-height: 1;
+}
+
+.navMenu li {
+  list-style: none;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+.bg-img {
+  background: url("https://images.unsplash.com/photo-1575237402880-4b496a83ae04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  width: 1900px;
+  border-radius: 10px;
+  padding-top: 425px;
+  padding-left: 150px;
+  color: white;
+}
+.bg-img h1 {
+  height: 20px;
+}
+.bg-img p {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 700;
+}
+.main__imgs img {
+  width: 495px;
+  height: 276px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+.technology-News h1 {
+  text-align: center;
+  height: 50px;
+  border-bottom: 2px solid black;
+}
+
+.technology {
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+  margin: 40px auto;
+  height: 450px;
+}
+.technology-News {
+  border-bottom: 2px solid black;
+  height: 540px;
+}
+.technology__block img {
+  width: 500px;
+  height: 300px;
+}
+.about {
+  width: 650px;
+  text-align: center;
+  margin: auto;
+}
+.about img {
+  width: 700px;
+  height: 500px;
+}
+.places {
+  width: 400px;
+  height: 300px;
+}
+.blocks {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.text {
+  width: 400px;
+}
+.text p {
+  padding-top: 30px;
+}
+.text h2 {
+  padding-top: 30px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 20px;
+  border-bottom: 3px solid black;
+}
+.advertisement {
+  text-align: center;
+  width: 800px;
+  height: 630px;
+  border: 3px solid black;
+}
+.advertisement h1 {
+  padding-top: 270px;
+}
+.moreInfo {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-auto-rows: 320px;
+  margin-left: 60px;
+  text-align: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+.moreInfo img {
+  width: 370px;
+  height: 250px;
 }
