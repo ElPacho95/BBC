@@ -6,7 +6,7 @@ const MoreInfo = (props) => {
     <div className="moreInfo">
       <div>
         {props.title.toString().split("").slice(0, 36)}
-        <Link to={`/news/${props.id}`}>
+        <Link className="infoLink" to={`/news/${props.id}`}>
           <img src={props.img} alt="" />
         </Link>
       </div>

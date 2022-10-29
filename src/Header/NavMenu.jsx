@@ -16,7 +16,7 @@ const NavMenu = () => {
       </li>
       {links.map((item) => (
         <li>
-          <Link className="link" to={`/${item.name}`}>
+          <Link key={item.id} className="link" to={`/${item.name}`}>
             {item.name}
           </Link>
         </li>

@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 const AboutPlaces = (props) => {
   return (
     <div>
-      <div className="blocks">
-        <div>
-          <img className="places" src={props.img} alt="" />
+      <div className="block">
+        <div className="image-wrapper">
+          <img className="places-img" src={props.img} alt="" />
         </div>
         <div className="text">
           <h1>{props.title.toString().split("").slice(0, 30)}</h1>
